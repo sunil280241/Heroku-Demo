@@ -3,6 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
 import pickle
+import sklearn.linear_model
 
 dataset = pd.read_csv('hiring.csv')
 
